@@ -1,0 +1,94 @@
+
+body{
+    background-color: rgba(127, 255, 212, 0.219);
+}
+header{
+    background-color: aquamarine;
+    color: chocolate;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    border: 1px solid black;
+}
+h1{
+    font-size: 80px;
+    margin-bottom: 0;
+}
+h2{
+    margin: 0;
+    font-size: 40px;
+}
+nav{
+   
+    box-sizing: border-box;
+    text-align: left;
+    background-color: aquamarine;
+    border: 1px solid black;
+ }
+
+ul, li{
+    display: inline-flex;
+    width:fit-content;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    
+    color: chocolate;
+}
+li,a{
+    display: block;
+    text-decoration: none;
+    padding: 8px 20px;
+    color: chocolate;
+    
+}
+section{
+    font-size: large;
+    margin: 2%;
+}
+
+footer{
+    background-color: aquamarine;
+    color: chocolate;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+/*As classes .card, .cardInterno e .cardInternoMaior controlmas as caixas onde são exibidos o conteúdo do site*/
+.card{
+    background-color: rgba(127, 255, 170, 0.219);
+    border: 1px solid black;
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 4px 4px 2px rgba(0,0,0,0.2);
+}
+.cardInterno{
+    background-color: rgba(127, 255, 212, 0.527);
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+}
+.cardInternoMaior{
+    background-color: rgba(127, 255, 212, 0.527);
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+}
+
+/*as classes .link controlam as mudanças de cor dos links do site*/
+.link{
+    color: chocolate;
+    
+}
+.link:hover{
+    color: darkred;
+}
+.link:active{
+    color: yellow;
+}
